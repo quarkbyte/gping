@@ -1,0 +1,45 @@
+{
+  "name": "gping",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "gping": "./bin/gping.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuarkByte/global-ping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuarkByte/global-ping/issues"
+  },
+  "homepage": "https://github.com/QuarkByte/global-ping#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "draftlog": "^1.0.12",
+    "log-update": "^2.1.0",
+    "progress": "^2.0.0",
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
